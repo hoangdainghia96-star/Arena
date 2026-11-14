@@ -1,0 +1,10 @@
+{
+  "name": "ANIME ARENA: CATACLYSM — 3D Random Battle",
+  "short_name": "Anime Arena",
+  "description": "AAA-Inspired 3D Anime Battle Royale Spectator Game with Hybrid AI, Deterministic Replay, and Character Studio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070f",
+  "theme_color": "#070913",
+  "orientation": "landscape"
+}

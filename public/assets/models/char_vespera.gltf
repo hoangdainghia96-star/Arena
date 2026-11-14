@@ -1,0 +1,424 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Anime Arena: Cataclysm Studio Asset Pipeline v1.0.0",
+    "copyright": "2026 Anime Arena Studio — Original Work (CC0-1.0 / MIT)"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Vespera Noctis",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "char_vespera_Root",
+      "mesh": 0,
+      "children": [
+        1
+      ],
+      "extras": {
+        "characterId": "char_vespera",
+        "weaponType": "grimoire",
+        "celShaderCompatible": true,
+        "outlinePassEnabled": true
+      }
+    },
+    {
+      "name": "Hips",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "Spine",
+      "translation": [
+        0,
+        0.08,
+        0
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "Chest",
+      "translation": [
+        0,
+        0.16,
+        0
+      ],
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "Neck",
+      "translation": [
+        0,
+        0.24,
+        0
+      ],
+      "children": [
+        5
+      ]
+    },
+    {
+      "name": "Head",
+      "translation": [
+        0,
+        0.32,
+        0
+      ],
+      "children": [
+        6
+      ]
+    },
+    {
+      "name": "HairRoot",
+      "translation": [
+        0,
+        0.4,
+        0
+      ],
+      "children": [
+        7
+      ]
+    },
+    {
+      "name": "LeftShoulder",
+      "translation": [
+        0,
+        0.48,
+        0
+      ],
+      "children": [
+        8
+      ]
+    },
+    {
+      "name": "LeftUpperArm",
+      "translation": [
+        0,
+        0.56,
+        0
+      ],
+      "children": [
+        9
+      ]
+    },
+    {
+      "name": "LeftLowerArm",
+      "translation": [
+        0,
+        0.64,
+        0
+      ],
+      "children": [
+        10
+      ]
+    },
+    {
+      "name": "LeftHand",
+      "translation": [
+        0,
+        0.72,
+        0
+      ],
+      "children": [
+        11
+      ]
+    },
+    {
+      "name": "RightShoulder",
+      "translation": [
+        0,
+        0.8,
+        0
+      ],
+      "children": [
+        12
+      ]
+    },
+    {
+      "name": "RightUpperArm",
+      "translation": [
+        0,
+        0.88,
+        0
+      ],
+      "children": [
+        13
+      ]
+    },
+    {
+      "name": "RightLowerArm",
+      "translation": [
+        0,
+        0.96,
+        0
+      ],
+      "children": [
+        14
+      ]
+    },
+    {
+      "name": "RightHand",
+      "translation": [
+        0,
+        1.04,
+        0
+      ],
+      "children": [
+        15
+      ]
+    },
+    {
+      "name": "WeaponMount",
+      "translation": [
+        0,
+        1.12,
+        0
+      ],
+      "children": [
+        16
+      ]
+    },
+    {
+      "name": "LeftUpperLeg",
+      "translation": [
+        0,
+        1.2,
+        0
+      ],
+      "children": [
+        17
+      ]
+    },
+    {
+      "name": "LeftLowerLeg",
+      "translation": [
+        0,
+        1.28,
+        0
+      ],
+      "children": [
+        18
+      ]
+    },
+    {
+      "name": "LeftFoot",
+      "translation": [
+        0,
+        1.36,
+        0
+      ],
+      "children": [
+        19
+      ]
+    },
+    {
+      "name": "RightUpperLeg",
+      "translation": [
+        0,
+        1.44,
+        0
+      ],
+      "children": [
+        20
+      ]
+    },
+    {
+      "name": "RightLowerLeg",
+      "translation": [
+        0,
+        1.52,
+        0
+      ],
+      "children": [
+        21
+      ]
+    },
+    {
+      "name": "RightFoot",
+      "translation": [
+        0,
+        1.6,
+        0
+      ],
+      "children": [
+        22
+      ]
+    },
+    {
+      "name": "CapeRoot",
+      "translation": [
+        0,
+        1.68,
+        0
+      ]
+    }
+  ],
+  "skins": [
+    {
+      "name": "char_vespera_HumanoidRig",
+      "joints": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "skeleton": 1
+    }
+  ],
+  "meshes": [
+    {
+      "name": "char_vespera_CelMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "char_vespera_AnimeToonMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.55,
+          0.25,
+          0.95,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.65
+      },
+      "extras": {
+        "shaderModel": "AnimeCelRamp3Step",
+        "rimLightIntensity": 0.85,
+        "outlineWidth": 0.022
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,AAAAAGZm5j8AAAAAZmbmvgAAgD9mZuY+ZmbmPgAAgD9mZuY+ZmbmPgAAgD9mZua+ZmbmvgAAgD9mZua+AAAAAAAAAAAAAAAAAAABAAIAAAACAAMAAAADAAQAAAAEAAEABQACAAEABQADAAIABQAEAAMABQABAAQA",
+      "byteLength": 120
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 72,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 72,
+      "byteLength": 48,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3",
+      "min": [
+        -0.45,
+        0,
+        -0.45
+      ],
+      "max": [
+        0.45,
+        1.8,
+        0.45
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "extras": {
+    "verifiedOriginalCharacter": true,
+    "webHostingCleared": true,
+    "license": "CC0-1.0",
+    "requiredBones": [
+      "Hips",
+      "Spine",
+      "Chest",
+      "Neck",
+      "Head",
+      "HairRoot",
+      "LeftShoulder",
+      "LeftUpperArm",
+      "LeftLowerArm",
+      "LeftHand",
+      "RightShoulder",
+      "RightUpperArm",
+      "RightLowerArm",
+      "RightHand",
+      "WeaponMount",
+      "LeftUpperLeg",
+      "LeftLowerLeg",
+      "LeftFoot",
+      "RightUpperLeg",
+      "RightLowerLeg",
+      "RightFoot",
+      "CapeRoot"
+    ],
+    "animationClips": [
+      "idle",
+      "move",
+      "basicCombo",
+      "heavyAttack",
+      "defend",
+      "counter",
+      "movementSkill",
+      "signatureSkill",
+      "ultimate",
+      "awakening",
+      "hit",
+      "eliminated",
+      "victory"
+    ]
+  }
+}

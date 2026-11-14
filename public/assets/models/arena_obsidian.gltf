@@ -1,0 +1,108 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Anime Arena: Cataclysm Studio Asset Pipeline v1.0.0",
+    "copyright": "2026 Anime Arena Studio — Original Work (CC0-1.0 / MIT)"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Obsidian Rift: Throne of the Fallen Star",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "arena_obsidian_Root",
+      "mesh": 0,
+      "extras": {
+        "arenaId": "arena_obsidian",
+        "playableRadius": 42,
+        "shrinkingZone": false,
+        "destructibleNodeCount": 10
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "arena_obsidian_PlatformMesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0
+          },
+          "indices": 1,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "arena_obsidian_EnvironmentMaterial",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.18,
+          0.22,
+          0.34,
+          1
+        ],
+        "metallicFactor": 0.25,
+        "roughnessFactor": 0.55
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,AAAAAGZm5j8AAAAAZmbmvgAAgD9mZuY+ZmbmPgAAgD9mZuY+ZmbmPgAAgD9mZua+ZmbmvgAAgD9mZua+AAAAAAAAAAAAAAAAAAABAAIAAAACAAMAAAADAAQAAAAEAAEABQACAAEABQADAAIABQAEAAMABQABAAQA",
+      "byteLength": 120
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 72,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 72,
+      "byteLength": 48,
+      "target": 34963
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 6,
+      "type": "VEC3",
+      "min": [
+        -0.45,
+        0,
+        -0.45
+      ],
+      "max": [
+        0.45,
+        1.8,
+        0.45
+      ]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 24,
+      "type": "SCALAR"
+    }
+  ],
+  "extras": {
+    "verifiedOriginalArena": true,
+    "webHostingCleared": true,
+    "license": "CC0-1.0"
+  }
+}
